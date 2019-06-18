@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+
+	<title>Portfolio</title>
+	
+	
+<!-- https://www.w3schools.com/howto/default.asp -->
+	
+	
+</head>
+
+<body class="wrapper">
+	<main>
+		<section class="fullscreen" id="first">
+			
+<!--Source: https://www.w3schools.com/howto/howto_js_off-canvas.asp -->
+			
+			<script>/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+				
+				
+				function openNav() {
+  				document.getElementById("mySidenav").style.width = "250px";
+  				document.getElementById("main").style.marginLeft = "250px";
+				document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+				}
+
+				/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+				function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft = "0";
+				document.body.style.backgroundColor = "white";
+}
+			</script>	
+				<div id="mySidenav" class="sidenav">
+ 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index.html">Home</a>
+  					<a href="product 1.html">Product 1</a>
+ 					<a href="product 2.html">Product 2</a>
+				</div>
+			<!-- Use any element to open the sidenav -->
+				<span onclick="openNav()"><i class="fas fa-bars fa-2x" style="color: #fff; float: right;"></i></span>
+
+			<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+			<div id="main">
+			</div>
+			
+<!-----END----->
+			
+		<!--Content here-->
+			<div class="columnwhite">
+				<h1>Product 1</h1>
+				<h2>La Tour Rose</h2>
+			</div>
+			<nav class="menu">
+				<!--<ul class="burger">
+					<li><i class="fas fa-bars fa-2x"></i></li>
+				</ul>-->
+				<ul>
+					<li><a href="https://www.instagram.com/frederikpedersen._/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/frederik-pedersen/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+					<li><a href="https://frederikpedersenportfolio.myportfolio.com/" target="_blank"><i class="fab fa-adobe fa-2x"></i></a></li>
+				</ul>
+			</nav>
+		<!--Content here-->
+			<div class="scroller">
+				<a  href="#next1"><p>Scroll down</p><i class="fas fa-arrow-down fa-2x"></i></a>
+			</div>
+		</section>
+		
+<!------Row2------->
+		
+		<section class="fullscreen" id="next1">
+	<!--Content here-->
+		<figure class="clearfix">
+			<img src="/Users/frede/Desktop/PORTFOLIO/root/image/La Tour Rose.jpg" alt="eiffeltower" style="	max-height: 70vh; text-align: center; position: absolute;
+			 bottom: 20vh; left: 50vw; padding: 1em; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%);">
+			<p class="tekst">Design & Billedredigering</p>
+		</figure>
+	<!--Content here-->
+		<div class="scroller">
+			<a  href="#last"><p>Scroll down</p><i class="fas fa-arrow-down fa-2x"></i></a>
+		</div>
+		</section>
+
+<!------Row3------->
+
+		<section class="fullscreen next" id="last" style="background-color: #242424 !important">
+		<!--Content here-->
+		<p class="bread"><span>Opgave:</span> Øve på billedbehandling</p>
+
+			<p class="bread"><span>Idegenerering:</span> Jeg havde fundet mit baggrundsbillede som start, derefter begyndte jeg på at finde ideer. 
+			 Jeg søgte inspiration på både Pinterest og Pexels. Blandt mine ideer fandt jeg på at sætte en fisk/hval, andet slags dyr eller monument ind.
+			</p>
+			
+			<p class="bread"><span>Skitsering:</span> Mente ikke at det var nødvendigt at lave en skitse, da det var en mindre vigtige  opgave 
+			( i forhold til at det var øvelse ).
+			</p>
+			
+			<p class="bread"><span>Produktion:</span> Det valgte element blev så selvfølgelig Eiffel tårnet, da det står rigtigt godt i kontrast med billedet 
+				og billede er meget lineært. Jeg ville gerne have et modernistisk, minimalistisk og fantasi billede, som var meget smukt og simpelt. 
+			</p>
+			
+			<p class="bread"><span>Konklusion:</span> Jeg mener at resultatet blev rigtigt godt og jeg er meget tilfreds. Alt er placeret som det skal 
+				og masken sidder også godt. Kan ikke lige umiddelbart se hvad der skulle gøres, men der vil selvfølgelig altid være noget. 
+			</p>
+		<!--Content here-->
+		<div class="scroller">
+			<a href="#first"><p>Scroll up</p><i class="fas fa-arrow-up fa-2x"></i></a>
+		</div>
+	</section>	
+
+</main>
+
+</body>
+
+</html>
